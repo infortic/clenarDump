@@ -18,7 +18,6 @@ public class Util  {
         CODEResponse = huc.getResponseCode();
         if (CODEResponse != 200) {
             return false;
-
         } else {
             return true;
         }
