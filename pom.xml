@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.processClearDump</groupId>
 	<artifactId>processClearDump</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>processClearDump</name>
 	<description>Process Dump and return Json clear</description>
 
@@ -32,6 +32,11 @@
 			<version>2.8.5</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.4.21.Final</version>
+		</dependency>
 
 
 		<dependency>

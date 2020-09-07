@@ -7,11 +7,14 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.OneToMany;
 
+import org.apache.camel.spi.annotations.Component;
 import org.springframework.data.annotation.Id;
+import org.springframework.stereotype.Service;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
+@Service
 @Entity
 @Table(name="TAB_IMAGES_PRODUCTS")
 public class ProductImage implements Serializable{
